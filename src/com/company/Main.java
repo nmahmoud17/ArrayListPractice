@@ -27,7 +27,7 @@ public class Main {
 
         ArrayList<String> allStrings = new ArrayList<String>();
         allStrings.addAll(stringsOnly);
-        allStrings.add(1,"wassup");
+        allStrings.add(2,"wassup");
 
         System.out.println(allStrings);
 
