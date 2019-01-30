@@ -19,11 +19,17 @@ public class Main {
 
         System.out.println(moreApprentices);
 
-        ArrayList<String>stringsOnly = new ArrayList<String>();
+        ArrayList<String> stringsOnly = new ArrayList<String>();
         stringsOnly.add("hello");
         stringsOnly.add("hi");
         //doesn't work
-        // stringsOnly.add(true);
+        //
+
+        ArrayList<String> allStrings = new ArrayList<String>();
+        allStrings.addAll(stringsOnly);
+        allStrings.add(1,"wassup");
+
+        System.out.println(allStrings);
 
     }
 }
